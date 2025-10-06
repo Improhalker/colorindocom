@@ -1011,23 +1011,28 @@ strong {
 
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 36px;
-  }
-
-  h2 {
-    font-size: 28px;
-  }
-
-  h3 {
     font-size: 26px;
   }
 
+  h2 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
   h4 {
-    font-size: 22px;
+    font-size: 19px;
   }
 
   h5 {
-    font-size: 20px;
+    font-size: 19px;
+  }
+
+  .hero-section 
+  {
+    padding-top: 5px;
   }
 
   .navbar-brand {
@@ -1051,3 +1056,12 @@ strong {
   }
 }
 
+.site_logo {
+  width: 250px;
+}
+
+@media screen and (max-width: 992px) {
+   .site_logo {
+    width: 150px;
+   }
+}
