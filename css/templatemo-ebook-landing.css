@@ -575,13 +575,27 @@ strong {
 .hero-section .row {
   position: relative;
   z-index: 22;
-  top: 100px;
 }
+
+@media screen and (max-width: 992px){
+    .hero-section .row {
+    position: relative;
+    z-index: 22;
+    top: 100px;
+  }
+  .hero-image {
+    position: relative;
+    z-index: 2;
+    bottom: 100px;
+    display: block;
+    margin: auto;
+  }
+}
+
 
 .hero-image {
   position: relative;
   z-index: 2;
-  bottom: 100px;
   display: block;
   margin: auto;
 }
