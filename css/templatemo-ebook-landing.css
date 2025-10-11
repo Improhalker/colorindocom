@@ -636,13 +636,14 @@ strong {
   CUSTOM BLOCK              
 -----------------------------------------*/
 .custom-block {
-  background-image: url('../images/businessman-sitting-by-table-cafe.jpg');
+  background-image: url('https://i0.wp.com/www.ecokidsart.com/wp-content/uploads/2014/01/IMG_0839-scaled.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
+  min-height: 420px;
 }
 
 .custom-block::after {
