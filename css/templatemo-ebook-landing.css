@@ -1084,3 +1084,8 @@ strong {
 .text-purple-custom {
   color: #ffffff;
 }
+
+#livros_individuais img {
+    height: 220px;
+    object-fit: cover;
+}
