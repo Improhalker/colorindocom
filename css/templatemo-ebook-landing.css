@@ -1087,5 +1087,5 @@ strong {
 
 #livros_individuais img {
     height: 220px;
-    object-fit: cover;
+    object-fit: contain;
 }
