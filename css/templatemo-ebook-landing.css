@@ -1089,3 +1089,66 @@ strong {
     height: 220px;
     object-fit: contain;
 }
+
+  /* 🔹 Botões de navegação do carrossel */
+  .custom-carousel-btn {
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #049ff9;/* Azul esverdeado escuro do seu tema (#3e5954) */
+    border: none;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .custom-carousel-btn:hover {
+    background-color: #0485cf; /* Azul mais claro (hover) */
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-size: 60%;
+    filter: invert(100%) brightness(110%); /* Ícones brancos */
+  }
+
+  /* 🔹 Melhor padding geral e espaçamento entre cards */
+  #livros_individuais {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  #livros_individuais .card {
+    transition: all 0.3s ease;
+    border-radius: 1rem;
+  }
+
+  #livros_individuais .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(62, 89, 84, 0.25);
+  }
+
+  #livros_individuais h2 {
+    color: #3e5954;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  #livros_individuais p.text-muted {
+    font-size: 1rem;
+  }
+
+  /* 🔹 Ajuste responsivo dos botões */
+  @media (max-width: 768px) {
+    .custom-carousel-btn {
+      width: 45px;
+      height: 45px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-size: 50%;
+    }
+  }
